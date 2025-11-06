@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "girl, pubic tattoo on underbelly, };
+      prompt: "girl, pubic tattoo on underbelly"};
 
     const response = await env.AI.run(
       "@cf/stabilityai/stable-diffusion-xl-base-1.0",
