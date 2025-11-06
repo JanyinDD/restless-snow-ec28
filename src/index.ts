@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "masterpiece, best quality, incredibly_absurdres, sea, kneehighs, girl, artbook, friled bikini,  "};
+      prompt: "masterpiece, best quality, incredibly_absurdres, kneehighs, girl, artbook, friled bikini, on the beach,  "};
 
     const response = await env.AI.run(
       "@cf/stabilityai/stable-diffusion-xl-base-1.0",
