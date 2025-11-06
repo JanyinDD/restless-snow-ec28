@@ -1,8 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "masterpiece, best quality, stars, cityscape, landscape, masterpiece,best quality,official art,extremely detailed CG unity 8k wallpaper, ",
-    };
+      prompt: "masterpiece, best quality, stars, cityscape, landscape, masterpiece,best quality,official art,extremely detailed CG unity 8k wallpaper, surrounded, multiple others, exhibitionism, audience, background characters, crowd, public humiliation, nun, };
 
     const response = await env.AI.run(
       "@cf/stabilityai/stable-diffusion-xl-base-1.0",
