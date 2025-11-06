@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "blocks world",
+      prompt: "minecraft,blocks world",
     };
 
     const response = await env.AI.run(
