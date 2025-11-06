@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "random scenes, random characters",
+      prompt: "masterpiece, best quality, stars, cityscape, landscape, masterpiece,best quality,official art,extremely detailed CG unity 8k wallpaper, ",
     };
 
     const response = await env.AI.run(
